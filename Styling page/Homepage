@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+2. RWD Task
+i.	Create a page which looks similar to the below mockup.
+ii.	Download the starter code from here.
+iii.	Follow the TODO instructions in the 'input.html' file.
+iv.	Make the page responsive and check its responsiveness as the screen size decreases.
+v.	The font in the mockup looks different from what we have in the code now.
+vi.	Find the closest possible font to the one in the mockup and replace the existing font with it (Hint: Visit https://fonts.google.com/ and look for "Play", "Rambla", "Lato", "Orbitron". One of them might be the font we need!)
+vii.	Two colored squares and their respective hexadecimal numbers are given on the left side serve as only a reference for the colors used for the text content in the mockup.
+viii.	They are not a part of the final page that we build. Make the Page as close as possible to the mockup. You can use your own images though.
+
+
+-->
+
+
+
+
+<html><head><meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-9" class="img-fluid">
+      <img src="../SampleImages/bean.jpg" ></div>
+    <div class="col=md-3">
+      <h1>Dileep Kumar Durgam</h1>
+      <h3>umkc_student(Enrolled in spring 2018)</h3>
+    </div>
+  </div>
+  <p></p>
+
+
+  <div class="row">
+    <div class="column2">
+      <img src="../SampleImages/Image.png" width="100%" height="300px">
+      <h2>Featured Work </h2>
+    </div>
+  </div>
+
+
+
+
+  <div class="row">
+    <div class="col-md-3">
+      <img src="../SampleImages/app1.png" width="250px" height="250px">
+      <h3>App1</h3>
+      <p><a href="#">Link to project</a></p>
+    </div>
+    <div class="col-md-3">
+      <img src="../SampleImages/app2.png" width="250px" height="250px">
+      <h3>App2</h3>
+      <p><a href="#">Link to project</a></p>
+    </div>
+    <div class="col-md-3">
+      <img src="../SampleImages/app3.png" width="250px" height="250px">
+      <h3>App3</h3>
+      <p><a href="#">Link to project</a></p>
+    </div>
+    <div class="col-md-3">
+      <img src="http://d1oiazdc2hzjcz.cloudfront.net/website/share-image.png" width="250px" height="250px">
+      <h3>App4</h3>
+      <p><a href="#">Link to project</a></p>
+    </div>
+  </div>
+</div>
+
+
+</body></html>
