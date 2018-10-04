@@ -11,7 +11,7 @@ function tplawesome(e, t) {
 $(function () {
     $("form").on("submit", function (e) {
         e.preventDefault();
-        // prepare the request
+        // This is meant to prepare the request
         var req = gapi.client.youtube.search.list({
             part: "snippet",
             type: "video",
@@ -21,7 +21,7 @@ $(function () {
             order: "relevance",
             publishedAfter: "2010-01-01T00:00:00Z"
         });
-        // execute the request
+        // This executes the request
         req.execute(function (response) {
             var results = response.result;
             $("#results").html("");
@@ -39,11 +39,12 @@ $(function () {
 
 function resetVideoHeight() {
     $(".video").css("height", $("#results").width() * 9 / 16);
+//    The video result frame
 }
 
 function initialize() {
     gapi.client.setApiKey("AIzaSyAFwYDAWGypIW_ZQkN73vFCgfFAFwiINXc");
     gapi.client.load("youtube", "v3", function () {
-        // yt api is ready
+    //Youtube API Key
     });
 }
