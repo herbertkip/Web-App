@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">585540289856-rclkuq3nq3lfskpjgit1mdpu4pduvlhs.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://web-lab-4.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">585540289856</string>
+    <string name="google_api_key" translatable="false">AIzaSyDUg0bfwWX151SlDnpszA_XqXTeKXLKTxE</string>
+    <string name="google_app_id" translatable="false">1:585540289856:android:5e003c9f6c9670f5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDUg0bfwWX151SlDnpszA_XqXTeKXLKTxE</string>
+    <string name="google_storage_bucket" translatable="false">web-lab-4.appspot.com</string>
+    <string name="project_id" translatable="false">web-lab-4</string>
+</resources>
